@@ -1,0 +1,17 @@
+@import url('../../style/index');
+@color:#666;
+
+.less{
+    .wh(@w,@h){
+        width: unit(@w,px);
+        height:unit(@h,px);
+    }
+    .code1{
+        .wh(50,50);
+        background:@themeColor;
+    }
+    .code2{
+        .wh(100,100);
+        background:pink;
+    }
+}
